@@ -47,3 +47,33 @@ Ready radio for OBC communication 30 nov 1
 Exposing all functionality to setting clients 31 dec 0
 Frequency coordination 31 dec 0
 Get radio to send signal 31 dec 0
+Systems-Engineer
+Sekvensdiagram for operations 11 sept 1
+Planlegging av operations 11 sept 1
+Funksjonstest av nyttelast før slipp 11 sept 1
+FTTR 1 oct 1
+Sensorer og logging 30 sept 1
+Kobling til varmeelement 31 oct 0
+Kobling ut av kammeret 31 oct 0
+utgassingstest av arduino 31 oct 0
+Varmetest av payload 31 nov 0
+Varmetest av radio 31 nov 0
+varmetest av OBC 31 nov 0
+Termiske tester (Kulde, varme og balansetest) av ADCS, OBC og payload 31 nov 0
+Vibrasjonstest av OBC, ADCS og Payload  31 nov 0
+Utvikle minimum operasjonelle scenarioer og teste de 31 nov 0
+Dokumentasjon av Selfiesat 31 oct 0
+Git 20 oct 0
+Designrapporter, påbegynt 30 oct 0
+ICD(Mek, elektronisk, komms ++) 15 nov 0
+Confluence 30 oct 0
+1U
+MAR 31 oct 0
+System requirements 31 oct 0
+Detailed systems design 31 nov 0
+Følgemiddelsøknad31 31 oct 0
+Sub-Orbital
+Dokumentasjon 12 dec 0
+Electrical ferdig  15 nov 0
+Software ferdig 28 februar 0 
+mekanisk ferdig 28 februar 0
