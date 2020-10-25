@@ -1,0 +1,48 @@
+ADCS
+Helmholtz cage 15 nov 0
+Detumble test 1 oct 1
+MTQ verifcation 18 oct 1
+OBC com 1 oct 1
+SS verification 25 oct 0
+BackUp controller 31 Oct 0
+ADCS moduler integrert i ADCS Main 15 nov 0
+BackUp controller + EmPC Verifisert i cage 24 dec 0
+Electronics 
+Payload-brett v1 1 sept 1
+Payload-brett v2 oct 1
+Burn Wire 30 sept 1
+Burn Wire på PCB 15 nov 0
+Varmeelement til vakuumkammer 1 sept 1
+ADCS 1 sept 1
+Kabelliste 1 oct 1
+Interstage 25 oct 0
+Produksjon av kabel 31 oct 0
+OBC
+Kommunikasjon med Payload  15 sept 1
+Testing kommunikasjon med Payload og ADCS 28 oct 1
+GitLabRunner 28 oct 0 
+Housekeeping rework 15 nov 0
+Power modes 25 oct 0
+EPS com 15 nov 0
+Kommunikasjon med radio 15 nov 0
+Mech
+Kabling 1 sept 1
+Hvordan satellitten stegvis skal settes sammen 20 nov 0
+Holdere til kamera 15 oct 0
+Interstage 31 oct 0
+Rammer til utstilling og testing 1 sept 1
+Heat sink / Strålebeskyttelse 10 nov 0
+Payload
+Kommunikasjon- og ta-bildebibliotek 4 nov 0
+Telemetrybibliotek 20 dec 0
+Selfie på FlatSat 4 nov 0
+Mekanisk alt fungerer 1 dec 0
+PCB V2.1 final 10 jan 0
+Teste alle komponenter i vakuum  20 jan 0
+SatCom
+Duplex connection on radio testbench 30 oct 1
+Simplex connection on radio testbench 30 oct 1
+Complete function coverage in Python interface 31 oct 0
+Ready radio for OBC communication 30 nov 1
+Exposing all functionality to setting clients 31 dec 0
+Frequency coordination 31 dec 0
