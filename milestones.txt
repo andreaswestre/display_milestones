@@ -75,5 +75,5 @@ Følgemiddelsøknad31 31 oct 0
 Sub-Orbital
 Dokumentasjon 12 dec 0
 Electrical ferdig  15 nov 0
-Software ferdig 28 februar 0 
-mekanisk ferdig 28 februar 0
+Software ferdig 28 feb 0 
+mekanisk ferdig 28 feb 0
