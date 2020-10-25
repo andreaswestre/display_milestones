@@ -5,7 +5,7 @@ from datetime import date
 
 today = date.today()
 this_month = today.strftime("%b").lower()
-this_date = today.strftime("%d")
+this_date = int( today.strftime("%d") )
 
 init()
 
@@ -29,14 +29,14 @@ def print_milestone(milestone_arr):
     date = milestone_arr[0]
     milestone = milestone_arr[2]
     if(status == "1"):
-        print(Fore.GREEN + date,month, milestone, group)
+        print(Fore.GREEN + str(date),month, milestone, group)
         print(Style.RESET_ALL)
     else:
         if(date < this_date and month_to_number(month) <= month_to_number(this_month)):
-            print(Fore.RED + date,month, milestone, group)
+            print(Fore.RED + str(date),month, milestone, group)
             print(Style.RESET_ALL)
         else:
-            print(Fore.YELLOW + date,month, milestone, group)
+            print(Fore.YELLOW + str(date),month, milestone, group)
             print(Style.RESET_ALL)
 
 f = open("milestones.txt", "r")
@@ -48,7 +48,7 @@ for x in f:
         month = array[len(array)-2]
         date = array[len(array)-3]
         milestone = ' '.join([str(elem) for elem in array[:len(array)-3]])
-        milestone_arr.append(date)
+        milestone_arr.append(int(date))
         milestone_arr.append(month_to_number(month))
         milestone_arr.append(milestone)
         milestone_arr.append(status)
@@ -58,15 +58,14 @@ for x in f:
         group = x
 
 #Sort
-all_milestones_arr.sort(key = lambda e: e[0])
+all_milestones_arr.sort(key = lambda e: e[0] )
 all_milestones_arr.sort(key = lambda e: e[1])
 
-while(True):
-    num_milestones =len( all_milestones_arr ) -1
-    for i in range(0, num_milestones):
-        print_milestone(all_milestones_arr[i%num_milestones])
-        if(i % 4 == 0):
-            time.sleep(2)
+num_milestones =len( all_milestones_arr ) -1
+for i in range(0, num_milestones):
+    print_milestone(all_milestones_arr[i%num_milestones])
+    if(i % 4 == 0):
+        time.sleep(2)
 
 
     
