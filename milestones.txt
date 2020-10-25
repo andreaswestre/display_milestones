@@ -1,5 +1,4 @@
 ADCS
-Get a better ADCS TL than Andreas 1 may 1
 Helmholtz cage 15 nov 0
 Detumble test 1 oct 1
 MTQ verifcation 18 oct 1
@@ -14,7 +13,7 @@ Payload-brett v2 1 oct 1
 Burn Wire 30 sept 1
 Burn Wire på PCB 15 nov 0
 Varmeelement til vakuumkammer 1 sept 1
-ADCS 1 sept 1
+ADCS v2 1 sept 1
 Kabelliste 1 oct 1
 Interstage 25 oct 0
 Produksjon av kabel 31 oct 0

@@ -64,8 +64,8 @@ all_milestones_arr.sort(key = lambda e: e[1])
 num_milestones =len( all_milestones_arr ) -1
 for i in range(0, num_milestones):
     print_milestone(all_milestones_arr[i%num_milestones])
-    if(i % 4 == 0):
-        time.sleep(2)
+    if(i % 1 == 0):
+        time.sleep(3)
 
 
     
