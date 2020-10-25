@@ -46,3 +46,4 @@ Complete function coverage in Python interface 31 oct 0
 Ready radio for OBC communication 30 nov 1
 Exposing all functionality to setting clients 31 dec 0
 Frequency coordination 31 dec 0
+Get radio to send signal 31 dec 0
