@@ -1,4 +1,5 @@
 ADCS
+Get a better ADCS TL than Andreas 1 may 1
 Helmholtz cage 15 nov 0
 Detumble test 1 oct 1
 MTQ verifcation 18 oct 1
