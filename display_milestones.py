@@ -29,14 +29,14 @@ def print_milestone(milestone_arr):
     date = milestone_arr[0]
     milestone = milestone_arr[2]
     if(status == "1"):
-        print(Fore.GREEN + str(date),month, milestone, group)
+        print(Back.GREEN + str(date),month, milestone, group)
         print(Style.RESET_ALL)
     else:
         if(date < this_date and month_to_number(month) <= month_to_number(this_month)):
-            print(Fore.RED + str(date),month, milestone, group)
+            print(Back.RED + str(date),month, milestone, group)
             print(Style.RESET_ALL)
         else:
-            print(Fore.YELLOW + str(date),month, milestone, group)
+            print(Back.YELLOW + str(date),month, milestone, group)
             print(Style.RESET_ALL)
 
 f = open("milestones.txt", "r")
