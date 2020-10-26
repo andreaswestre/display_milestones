@@ -7,7 +7,7 @@ today = date.today()
 this_month = today.strftime("%b").lower()
 this_date = int( today.strftime("%d") )
 
-init()
+init(autoreset = True)
 
 all_milestones_arr = []
 
@@ -29,15 +29,12 @@ def print_milestone(milestone_arr):
     date = milestone_arr[0]
     milestone = milestone_arr[2]
     if(status == "1"):
-        print(Back.GREEN + str(date),month, milestone, group)
-        print(Style.RESET_ALL)
+        print(Style.BRIGHT + Back.GREEN + str(date),month, milestone, group)
     else:
         if(date < this_date and month_to_number(month) <= month_to_number(this_month)):
             print(Back.RED + str(date),month, milestone, group)
-            print(Style.RESET_ALL)
         else:
             print(Back.YELLOW + str(date),month, milestone, group)
-            print(Style.RESET_ALL)
 
 f = open("milestones.txt", "r")
 for x in f:
