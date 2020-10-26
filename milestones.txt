@@ -22,9 +22,9 @@ Kommunikasjon med Payload  15 sept 1
 Testing kommunikasjon med Payload og ADCS 28 oct 1
 GitLabRunner 28 oct 0 
 Housekeeping rework 15 nov 0
-Power modes 25 oct 0
+Power modes 1 nov 0
 EPS com 15 nov 0
-Kommunikasjon med radio 15 nov 0
+Kommunikasjon med radio 15 nov 1
 Mech
 Kabling 1 sept 1
 Hvordan satellitten stegvis skal settes sammen 20 nov 0
