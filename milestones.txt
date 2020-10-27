@@ -1,11 +1,10 @@
 ADCS
-Natanael blir TL ADCS 1 jan 1
 Helmholtz cage 15 nov 0
 Detumble test 1 oct 1
 MTQ verifcation 18 oct 1
 OBC com 1 oct 1
-SS verification 25 oct 0
-BackUp controller 31 Oct 0
+SS verification 25 oct 1
+BackUp controller 10 nov 0
 ADCS moduler integrert i ADCS Main 15 nov 0
 BackUp controller + EmPC Verifisert i cage 24 dec 0
 Electronics 
